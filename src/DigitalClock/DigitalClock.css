@@ -1,0 +1,16 @@
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+.clock span {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0.75);
+}
